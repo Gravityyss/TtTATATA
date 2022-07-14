@@ -53,6 +53,7 @@ def findMax(i,j,matrix, input,traceMatrix):
     max_value = max(maxList)
     max_index = maxList.index(max_value)
 
+    
     if(max_index==0 and flag):
         #if(flagWobble):
          #   traceMatrix[i][j] = 'W'  # Cross/Diagonal
